@@ -1,0 +1,33 @@
+body {
+    font-family: helvetica;
+}
+
+.todo-grid, .to-do-list-grid {
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+.todo-grid{
+    align-items: center;
+}
+.name-input, .due-date-input{
+    font-size: 1rem;
+    padding: 6px;
+}
+.addButton {
+    color: aliceblue;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delButton {
+    color: aliceblue;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}

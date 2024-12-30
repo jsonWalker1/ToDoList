@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        
+        <input type="text" placeholder="login" class="js-login">
+        <input type="password" placeholder="password" class="js-password">
+        <button onclick=" console.log(login)
+        //tady vyřeším aby se mě správně picknul doom querySelectorem a zapsal do proměný.
+        const inputLogin = document.querySelector('.js-login').value
+        console.log(inputLogin);
+        const inputPassword = document.querySelector('.js-password').value
+        console.log(inputPassword)
+        //if statement pro porovnani vstupu a loginu password
+        if (login === inputLogin && password === inputPassword){
+            window.location.href='todolist.html';
+        }
+        else {console.log(0)}
+        ">login</button>
+    </p>
+
+    <script>
+        //tady si vytvořím proměné které se pak porovnajaí s inputama
+        const login = 'Tomas'
+        const password = '666'
+    </script>
+</body>
+</html>
